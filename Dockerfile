@@ -3,7 +3,7 @@
 # VERSION               0.1
 ##################################################################
 
-FROM node:6
+FROM node:8
 
 LABEL Description="iobroker docker image" Maintainer="trebankosta@gmail.com" Version="0.1"
 
