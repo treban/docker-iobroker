@@ -20,7 +20,7 @@ RUN iobroker add vis
 RUN iobroker add pimatic
 RUN iobroker set admin.0 --enabled --port 9191
 RUN iobroker set web.0 --enabled --port 9192
-VOLUME /opt/iobroker/
+VOLUME /opt/iobroker/iobroker-data
 
 EXPOSE 9191 9192
 CMD /usr/local/bin/node node_modules/iobroker.js-controller/controller.js
